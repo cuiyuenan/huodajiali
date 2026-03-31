@@ -54,7 +54,7 @@ if (contactForm) {
     console.log('Form submitted:', data);
     
     // Show success message
-    alert('感谢您的留言，我们会尽快与您联系！');
+    alert('Thank you for your message, we will contact you shortly!');
     this.reset();
   });
 }
