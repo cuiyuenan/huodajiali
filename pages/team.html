@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="火大家利科技 - 团队实力">
+  <title>团队实力 - 火大家利科技</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <style>
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 3rem;
+    }
+
+    .team-card {
+      background-color: var(--light-color);
+      border-radius: 12px;
+      overflow: hidden;
+      transition: all 0.3s ease;
+      border: 1px solid var(--border-color);
+    }
+
+    .team-card:hover {
+      transform: translateY(-8px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+      background-color: white;
+    }
+
+    .team-card-header {
+      width: 100%;
+      height: 120px;
+      background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    .team-card-body {
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .team-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+      color: var(--dark-color);
+    }
+
+    .team-card .company {
+      color: var(--primary-color);
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .team-card .position {
+      color: var(--primary-color);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 1rem;
+    }
+
+    .team-card .experience {
+      color: #666;
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .expertise-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      justify-content: center;
+    }
+
+    .expertise-tag {
+      background-color: rgba(0, 82, 204, 0.1);
+      color: var(--primary-color);
+      padding: 0.3rem 0.8rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <nav>
+      <a href="../index.html" class="logo">
+        <div class="logo-icon">H</div>
+        <span>火大家利</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="services.html">业务介绍</a></li>
+        <li><a href="team.html">团队实力</a></li>
+        <li><a href="contact.html">联系我们</a></li>
+      </ul>
+      <a href="contact.html" class="contact-btn">商务合作</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>实力非凡的核心团队</h1>
+      <p class="subtitle">
+        汇聚来自全球顶尖科技公司的行业精英，<br>为您的产品提供专业的技术支持和运营指导
+      </p>
+    </div>
+  </section>
+
+  <!-- Team Overview -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">团队背景</h2>
+      <p class="section-subtitle">
+        火大家利科技的团队成员来自Apple、Microsoft、Meta、Intel、Tencent、Sony等全球顶级公司。
+        每一位成员都在各自领域拥有超过10年的专业经验，是行业的大佬级人物。
+      </p>
+
+      <div class="features-grid" style="margin-top: 3rem;">
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>行业经验</h3>
+          <p>团队成员平均拥有15年以上的移动互联网和游戏行业经验，参与过多款年活跃用户超千万的产品。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌟</div>
+          <h3>技术领导力</h3>
+          <p>在移动应用开发、游戏引擎、云计算、AI等领域有深厚的技术积累和创新能力。</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🌍</div>
+          <h3>全球视野</h3>
+          <p>具有丰富的国际市场运营经验，了解全球不同地区的市场特点和消费者需求。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Core Team Members -->
+  <section style="background-color: var(--light-color);">
+    <div class="container">
+      <h2 class="section-title">核心团队成员</h2>
+      <p class="section-subtitle">
+        顶尖人才的集合，为您的成功提供强大支撑
+      </p>
+
+      <div class="team-grid">
+        <!-- Apple Team -->
+        <div class="team-card">
+          <div class="team-card-header">A</div>
+          <div class="team-card-body">
+            <h3>iOS开发团队</h3>
+            <div class="company">Apple</div>
+            <div class="position">资深软件工程师</div>
+            <div class="experience">
+              拥有10+年iOS应用开发经验，精通Swift、Objective-C，深入理解iOS系统架构和性能优化。参与过多款App Store排名前50的应用开发。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">Swift</span>
+              <span class="expertise-tag">iOS</span>
+              <span class="expertise-tag">性能优化</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Microsoft Team -->
+        <div class="team-card">
+          <div class="team-card-header">M</div>
+          <div class="team-card-body">
+            <h3>云架构与后端团队</h3>
+            <div class="company">Microsoft</div>
+            <div class="position">云架构师</div>
+            <div class="experience">
+              深厚的Azure云计算和分布式系统架构经验。擅长设计大规模分布式系统，支撑千万级DAU的应用。具有丰富的DevOps和CI/CD经验。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">Azure</span>
+              <span class="expertise-tag">分布式系统</span>
+              <span class="expertise-tag">DevOps</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meta Team -->
+        <div class="team-card">
+          <div class="team-card-header">M</div>
+          <div class="team-card-body">
+            <h3>产品与增长团队</h3>
+            <div class="company">Meta</div>
+            <div class="position">资深产品经理</div>
+            <div class="experience">
+              精通数据驱动的产品策略和用户增长方法论。在用户获取、留存和变现领域有深厚的实战经验。带领团队实现过多项亿级用户的产品增长。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">产品策略</span>
+              <span class="expertise-tag">用户增长</span>
+              <span class="expertise-tag">数据分析</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Intel Team -->
+        <div class="team-card">
+          <div class="team-card-header">I</div>
+          <div class="team-card-body">
+            <h3>性能优化与基础设施团队</h3>
+            <div class="company">Intel</div>
+            <div class="position">性能优化专家</div>
+            <div class="experience">
+              在系统优化和性能调优领域有深厚造诣。擅长CPU、内存、网络等多维度的性能分析和优化。帮助多款应用实现性能提升50%以上。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">性能优化</span>
+              <span class="expertise-tag">基础设施</span>
+              <span class="expertise-tag">系统优化</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tencent Team -->
+        <div class="team-card">
+          <div class="team-card-header">T</div>
+          <div class="team-card-body">
+            <h3>游戏开发与运营团队</h3>
+            <div class="company">Tencent</div>
+            <div class="position">资深游戏设计师</div>
+            <div class="experience">
+              参与过多款亿级用户游戏的设计与运营。在游戏玩法设计、平衡性调整、留存优化等方面经验丰富。深入理解游戏商业化和社交系统。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">游戏设计</span>
+              <span class="expertise-tag">游戏运营</span>
+              <span class="expertise-tag">用户留存</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sony Team -->
+        <div class="team-card">
+          <div class="team-card-header">S</div>
+          <div class="team-card-body">
+            <h3>多媒体与美术团队</h3>
+            <div class="company">Sony</div>
+            <div class="position">多媒体技术专家</div>
+            <div class="experience">
+              在音视频处理和媒体技术领域有丰富经验。擅长视频编码、音频处理、图形渲染等技术。为应用提供高质量的多媒体体验。
+            </div>
+            <div class="expertise-tags">
+              <span class="expertise-tag">音视频</span>
+              <span class="expertise-tag">图形渲染</span>
+              <span class="expertise-tag">多媒体</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Organization Structure -->
+  <section>
+    <div class="container">
+      <h2 class="section-title">组织架构</h2>
+      <p class="section-subtitle">
+        分工明确，专业高效的组织体系确保为客户提供最佳服务
+      </p>
+
+      <div style="margin-top: 3rem; max-width: 1000px; margin-left: auto; margin-right: auto;">
+        <div style="background-color: var(--light-color); padding: 2rem; border-radius: 12px; margin-bottom: 2rem;">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem;">技术研发中心</h3>
+          <p style="color: #666; margin-bottom: 1rem;">
+            由来自Apple、Microsoft、Intel等公司的技术精英组成，拥有强大的技术研发能力。
+          </p>
+          <ul style="color: #666; margin-left: 1.5rem;">
+            <li>iOS/Android应用开发</li>
+            <li>游戏引擎开发与优化</li>
+            <li>后端服务与云技术</li>
+            <li>性能优化与基础设施</li>
+            <li>安全防护与数据处理</li>
+          </ul>
+        </div>
+
+        <div style="background-color: var(--light-color); padding: 2rem; border-radius: 12px; margin-bottom: 2rem;">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem;">运营管理中心</h3>
+          <p style="color: #666; margin-bottom: 1rem;">
+            由来自Meta、Tencent等公司的运营专家组成，拥有丰富的全球运营经验。
+          </p>
+          <ul style="color: #666; margin-left: 1.5rem;">
+            <li>用户增长与获取策略</li>
+            <li>社区管理与用户运营</li>
+            <li>数据分析与优化</li>
+            <li>版本迭代与功能优化</li>
+            <li>全球市场拓展</li>
+          </ul>
+        </div>
+
+        <div style="background-color: var(--light-color); padding: 2rem; border-radius: 12px;">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem; font-size: 1.3rem;">商务互动中心</h3>
+          <p style="color: #666; margin-bottom: 1rem;">
+            负责客户对接、合作管理、商务拓展等工作，确保客户获得最佳服务体验。
+          </p>
+          <ul style="color: #666; margin-left: 1.5rem;">
+            <li>客户需求评估与方案设计</li>
+            <li>商业合作与谈判</li>
+            <li>项目进度管理与质量保证</li>
+            <li>渠道合作与拓展</li>
+            <li>客户关系维护</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Areas -->
+  <section style="background-color: var(--light-color);">
+    <div class="container">
+      <h2 class="section-title">核心技术能力</h2>
+      <p class="section-subtitle">
+        多领域的深厚技术积累和丰富的实战经验
+      </p>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">移动端开发</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ 原生iOS开发</li>
+            <li>✓ 原生Android开发</li>
+            <li>✓ 跨平台框架</li>
+            <li>✓ 性能优化</li>
+            <li>✓ 适配与兼容</li>
+          </ul>
+        </div>
+
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">游戏开发</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ Unity引擎</li>
+            <li>✓ Unreal Engine</li>
+            <li>✓ 游戏逻辑设计</li>
+            <li>✓ 图形优化</li>
+            <li>✓ 多平台发行</li>
+          </ul>
+        </div>
+
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">后端与云技术</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ 分布式系统</li>
+            <li>✓ 微服务架构</li>
+            <li>✓ 云平台(AWS/Azure)</li>
+            <li>✓ 数据库优化</li>
+            <li>✓ 高可用设计</li>
+          </ul>
+        </div>
+
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">用户增长</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ ASO优化</li>
+            <li>✓ 渠道运营</li>
+            <li>✓ 用户获取</li>
+            <li>✓ 数据分析</li>
+            <li>✓ 增长黑客</li>
+          </ul>
+        </div>
+
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">变现与运营</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ 商业模式设计</li>
+            <li>✓ 广告变现</li>
+            <li>✓ 应用内购</li>
+            <li>✓ 用户留存</li>
+            <li>✓ 社区运营</li>
+          </ul>
+        </div>
+
+        <div style="padding: 2rem; background-color: white; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);">
+          <h3 style="color: var(--primary-color); margin-bottom: 1rem;">安全与合规</h3>
+          <ul style="color: #666; list-style: none;">
+            <li>✓ 数据安全</li>
+            <li>✓ 隐私保护</li>
+            <li>✓ 反破解</li>
+            <li>✓ 合规审计</li>
+            <li>✓ 风险管理</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container" style="text-align: center;">
+      <h2 class="section-title">与顶尖团队合作</h2>
+      <p class="section-subtitle" style="max-width: 700px;">
+        我们的专业团队已准备好为您的项目提供最高质量的支持和指导。
+        让我们一起打造下一个成功的产品。
+      </p>
+      <div class="hero-buttons">
+        <a href="contact.html" class="btn-primary">联系我们</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h3>火大家利科技</h3>
+        <p>全球领先的移动应用与游戏服务提供商。</p>
+      </div>
+      <div class="footer-section">
+        <h3>快速链接</h3>
+        <ul>
+          <li><a href="../index.html">首页</a></li>
+          <li><a href="services.html">业务介绍</a></li>
+          <li><a href="team.html">团队实力</a></li>
+          <li><a href="contact.html">联系我们</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>联系信息</h3>
+        <ul>
+          <li><strong>地址：</strong>北京市顺义区龙湾屯镇府前街13号2号楼（北）677室</li>
+          <li><strong>商务：</strong>cuiyuenan@huodajiali.com</li>
+          <li><strong>技术支持：</strong>support@huodajiali.com</li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h3>关注我们</h3>
+        <ul>
+          <li><a href="#">官方微博</a></li>
+          <li><a href="#">微信公众号</a></li>
+          <li><a href="#">LinkedIn</a></li>
+          <li><a href="#">GitHub</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2024 火大家利科技有限公司。保留所有权利。</p>
+      <div class="footer-links">
+        <a href="privacy.html">隐私政策</a>
+        <a href="terms.html">服务条款</a>
+        <a href="contact.html">联系我们</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/script.js"></script>
+</body>
+</html>
