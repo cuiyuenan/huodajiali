@@ -1,3 +1,4 @@
+google.com, pub-7100020807260971, DIRECT, f08c47fec0942fa0
 chartboost.com, 69e1db68f67997f10fb3c839, DIRECT
 loopme.com, 20409, DIRECT, 6c8d5f95897a5a3b
 rubiconproject.com, 24600, RESELLER, 0bfd66d529a55807
