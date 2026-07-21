@@ -1,3 +1,4 @@
+vungle.com, 6a5ee06098f4eedbd1f2391a, DIRECT, c107d686becd2d77
 google.com, pub-7100020807260971, DIRECT, f08c47fec0942fa0
 chartboost.com, 69e1db68f67997f10fb3c839, DIRECT
 loopme.com, 20409, DIRECT, 6c8d5f95897a5a3b
